@@ -21,17 +21,7 @@ export default function Header() {
       <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px', height: 68, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         {/* Logo — exact BarAds Media style */}
         <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 10 }}>
-          {/* BarAds Media logo — orange circle with dark D cutout and tail */}
-          <div style={{ width: 38, height: 38 }}>
-            <svg viewBox="0 0 100 100" width="38" height="38" xmlns="http://www.w3.org/2000/svg">
-              {/* Orange circle background */}
-              <circle cx="48" cy="46" r="44" fill="#F5A623"/>
-              {/* Bottom-right speech bubble tail */}
-              <path d="M72,76 L92,96 L68,80 Z" fill="#F5A623"/>
-              {/* Bold D letterform in dark */}
-              <path d="M28,24 L28,68 L50,68 Q74,68 74,46 Q74,24 50,24 Z M42,36 L49,36 Q60,36 60,46 Q60,56 49,56 L42,56 Z" fill="#1a1a2e"/>
-            </svg>
-          </div>
+          <img src="https://vibe.filesafe.space/meta/1775342759259474031/favicon.png" alt="BarChata" style={{ width: 38, height: 38, borderRadius: 8 }} />
           <div>
             <div style={{ color: '#0D1B2A', fontWeight: 800, fontSize: 17, lineHeight: 1 }}>BarChata</div>
             <div style={{ color: '#F5A623', fontWeight: 700, fontSize: 10, letterSpacing: '0.08em', textTransform: 'uppercase' }}>Marketplace</div>
