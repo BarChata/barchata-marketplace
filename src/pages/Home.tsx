@@ -35,7 +35,7 @@ export default function Home() {
         <div style={{ maxWidth: 800, margin: '0 auto', textAlign: 'center', position: 'relative' }}>
           <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(245,166,35,0.1)', border: '1px solid rgba(245,166,35,0.25)', borderRadius: 100, padding: '6px 16px', marginBottom: 24 }}>
             <div style={{ width: 6, height: 6, borderRadius: 3, background: '#F5A623' }} />
-            <span style={{ color: '#F5A623', fontSize: 12, fontWeight: 600, letterSpacing: '0.05em' }}>Canada's Nightlife & Hospitality Marketplace</span>
+            <span style={{ color: '#F5A623', fontSize: 12, fontWeight: 600, letterSpacing: '0.05em' }}>Canada's Hospitality & Entertainment Marketplace</span>
           </div>
           <h1 style={{ fontSize: 56, fontWeight: 900, color: '#fff', lineHeight: 1.1, marginBottom: 20, letterSpacing: '-0.02em' }}>
             Find & List Nightlife<br /><span style={{ color: '#F5A623' }}>Business Opportunities</span>
@@ -157,7 +157,7 @@ export default function Home() {
       <section style={{ background: 'linear-gradient(135deg, rgba(245,166,35,0.12), rgba(245,166,35,0.04))', border: '1px solid rgba(245,166,35,0.2)', borderRadius: 24, maxWidth: 1200, margin: '0 auto 80px', padding: '48px 40px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 40 }}>
         <div>
           <h2 style={{ fontSize: 32, fontWeight: 900, color: '#fff', marginBottom: 12 }}>Ready to list your venue?</h2>
-          <p style={{ color: 'rgba(255,255,255,0.5)', fontSize: 16 }}>Join BarNet or BarNone and reach thousands of nightlife enthusiasts across Canada.</p>
+          <p style={{ color: 'rgba(255,255,255,0.5)', fontSize: 16 }}>Join BarNet or BarNone and reach thousands of guests and entertainment seekers across Canada.</p>
         </div>
         <div style={{ display: 'flex', gap: 12, flexShrink: 0 }}>
           <a href="/login?signup=true" style={{ background: '#F5A623', borderRadius: 12, padding: '14px 28px', color: '#0A1628', fontSize: 15, fontWeight: 700, textDecoration: 'none', whiteSpace: 'nowrap' }}>
