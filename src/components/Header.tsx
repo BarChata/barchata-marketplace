@@ -1,10 +1,10 @@
 import { Link, useNavigate } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { supabase } from '../lib/supabase'
 
 export default function Header() {
   const [user, setUser] = useState<any>(null)
-  // const [menuOpen, setMenuOpen] = useState(false)
+
   const navigate = useNavigate()
 
   useEffect(() => {
