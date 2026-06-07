@@ -4,7 +4,6 @@ import { supabase } from '../lib/supabase'
 
 export default function Header() {
   const [user, setUser] = useState<any>(null)
-  const [menuOpen, setMenuOpen] = useState(false)
   const navigate = useNavigate()
 
   useEffect(() => {
