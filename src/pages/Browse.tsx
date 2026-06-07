@@ -47,7 +47,7 @@ export default function Browse() {
   return (
     <div style={{ maxWidth: 1200, margin: '0 auto', padding: '48px 24px' }}>
       <h1 style={{ fontSize: 36, fontWeight: 900, color: '#fff', marginBottom: 8 }}>Browse Marketplace</h1>
-      <p style={{ color: 'rgba(255,255,255,0.4)', marginBottom: 32 }}>Discover venues, table reservations, bottle service and more.</p>
+      <p style={{ color: 'rgba(255,255,255,0.4)', marginBottom: 32 }}>Discover businesses, venues, experiences, listings and more.</p>
 
       {/* Filters */}
       <div style={{ background: '#0D1B2A', border: '1px solid rgba(255,255,255,0.08)', borderRadius: 16, padding: 20, marginBottom: 32, display: 'flex', gap: 12, flexWrap: 'wrap', alignItems: 'center' }}>
