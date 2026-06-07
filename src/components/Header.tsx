@@ -21,11 +21,13 @@ export default function Header() {
       <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px', height: 68, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         {/* Logo — exact BarAds Media style */}
         <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 10 }}>
-          {/* Speech bubble D logo */}
-          <div style={{ width: 38, height: 38, position: 'relative' }}>
-            <svg viewBox="0 0 100 100" width="38" height="38">
-              <path d="M10,10 Q10,5 15,5 L85,5 Q90,5 90,10 L90,70 Q90,75 85,75 L55,75 L40,92 L40,75 L15,75 Q10,75 10,70 Z" fill="#F5A623"/>
-              <text x="50" y="58" textAnchor="middle" fontSize="48" fontWeight="900" fill="#0D1B2A" fontFamily="sans-serif">B</text>
+          {/* BarAds-style speech bubble logo */}
+          <div style={{ width: 38, height: 38 }}>
+            <svg viewBox="0 0 100 100" width="38" height="38" xmlns="http://www.w3.org/2000/svg">
+              {/* Outer bubble */}
+              <path d="M8,8 Q8,2 14,2 L86,2 Q92,2 92,8 L92,68 Q92,74 86,74 L58,74 L46,94 L46,74 L14,74 Q8,74 8,68 Z" fill="#F5A623"/>
+              {/* D shape cutout — thick D */}
+              <path d="M32,22 L32,58 L52,58 Q68,58 68,40 Q68,22 52,22 Z M42,32 L50,32 Q56,32 56,40 Q56,48 50,48 L42,48 Z" fill="#0D1B2A"/>
             </svg>
           </div>
           <div>
