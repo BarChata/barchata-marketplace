@@ -7,12 +7,7 @@ export default function Footer() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 40, marginBottom: 48 }}>
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 16 }}>
-              <div style={{ width: 32, height: 32, position: 'relative' }}>
-                <svg viewBox="0 0 100 100" width="32" height="32">
-                  <path d="M10,10 Q10,5 15,5 L85,5 Q90,5 90,10 L90,70 Q90,75 85,75 L55,75 L40,92 L40,75 L15,75 Q10,75 10,70 Z" fill="#F5A623"/>
-                  <text x="50" y="58" textAnchor="middle" fontSize="48" fontWeight="900" fill="#0D1B2A" fontFamily="sans-serif">B</text>
-                </svg>
-              </div>
+              <img src="https://vibe.filesafe.space/meta/1775342759259474031/favicon.png" alt="BarChata" style={{ width: 32, height: 32, borderRadius: 6 }} />
               <div>
                 <div style={{ color: '#fff', fontWeight: 800, fontSize: 15 }}>BarChata</div>
                 <div style={{ color: '#F5A623', fontSize: 9, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase' }}>Marketplace</div>
